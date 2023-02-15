@@ -5,6 +5,7 @@
   background-color: #51bf99;
 }
 .card {
+  /* background-image: url(/assets/images/Vector 1.png); */
   width: 240px;
   height: 300px;
   backdrop-filter: blur(7px);
@@ -17,9 +18,46 @@
   cursor: pointer;
 }
 
-.card:hover {
+/* .card:hover {
   box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.5);
+} */
+
+.card:active {
+  transform: scale(0.95);
+  border: 1px solid blue;
+  /*animation: 0.3s click cubic-bezier(.42,0,.58,1);*/
 }
+
+.card-text-head {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-text-expert {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+.back {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.front {
+  position: absolute;
+  z-index: 2;
+}
+
+.marg-left {
+  margin-left: 4.5rem;
+}
+/* .card img:hover {
+  box-shadow: 20px 0px 0px 0px rgba(157, 177, 255, 0.5);
+} */
 
 .search:hover {
   box-shadow: 20px 20px 50px 0px rgba(157, 177, 255, 0.5);
@@ -27,12 +65,6 @@
 
 .rekomendasi:hover {
   box-shadow: 0px 4px 10px 13px rgba(81, 191, 153, 0.25);
-}
-
-.card:active {
-  transform: scale(0.95);
-  border: 1px solid blue;
-  /*animation: 0.3s click cubic-bezier(.42,0,.58,1);*/
 }
 
 .button {
@@ -66,7 +98,7 @@
 }
 
 .button:hover svg {
-  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  transform: translateX(1.2em) rotate(90deg) scale(1.1);
 }
 
 .button:hover span {
@@ -75,6 +107,12 @@
 
 .button:active {
   transform: scale(0.95);
+}
+
+.image {
+  /* margin: auto; */
+  height: 100px;
+  width: 100px;
 }
 
 @keyframes fly-1 {
