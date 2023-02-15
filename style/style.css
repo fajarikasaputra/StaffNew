@@ -115,6 +115,12 @@
   width: 100px;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid #3a4f7a;
+  width: 74.5vw;
+}
+
 @keyframes fly-1 {
   from {
     transform: translateY(0.1em);
