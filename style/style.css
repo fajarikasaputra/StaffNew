@@ -124,15 +124,7 @@ hr {
 .input {
   border: 1px solid #3a4f7a;
 }
-@keyframes fly-1 {
-  from {
-    transform: translateY(0.1em);
-  }
 
-  to {
-    transform: translateY(-0.1em);
-  }
-  
 .button-profile {
     display: flex;
     align-items: center;
@@ -165,6 +157,15 @@ hr {
   }
   
 }
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+  
 
 /*
 @keyframes click{
