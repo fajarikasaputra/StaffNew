@@ -121,6 +121,9 @@ hr {
   width: 74.5vw;
 }
 
+.input {
+  border: 1px solid #3a4f7a;
+}
 @keyframes fly-1 {
   from {
     transform: translateY(0.1em);
