@@ -217,6 +217,41 @@ box-shadow: 0px 4px 27px 13px rgba(0, 0, 0, 0.05);
   color: #3a4f7a;
 }
 
+.cari-filter {
+ width: 6em;
+ height: 3em;
+ border-radius: 30em;
+ font-size: 15px;
+ font-family: inherit;
+ border: none;
+ position: relative;
+ overflow: hidden;
+ z-index: 1;
+ box-shadow: 6px 6px 12px #c5c5c5,
+            -6px -6px 12px #ffffff;
+}
+
+.cari-filter::before {
+ content: '';
+ width: 0;
+ height: 3em;
+ border-radius: 30em;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: linear-gradient(to right, #316498 0%, #3A4F7A 100%);
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+ color: white;
+
+}
+
+.cari-filter:hover::before {
+ width: 9em;
+
+}
+
 @keyframes fly-1 {
   from {
     transform: translateY(0.1em);

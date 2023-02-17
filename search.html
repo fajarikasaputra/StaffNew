@@ -57,9 +57,12 @@
         <!-- rekomendasi dosen -->
 
         <!-- search -->
-        <div class=" mt-10 h-10 w-full flex ml-10 mr-16 text-white relative">
+
+
+        <!-- search -->
+        <div class=" mt-10 h-10 w-full block ml-10 mr-16 relative">
             <div class="relative w-full flex">
-                <input type="text" class=" search shadow-2xl p-3 h-10 w-full font-semibold  rounded-full biru"
+                <input type="text" class="search shadow-2xl p-3 h-10 w-full font-normal text-white  rounded-full biru"
                     placeholder="Cari" />
                 <a href="search.html">
                     <button type="submit" class="mt-2 absolute right-3 pl-10">
@@ -71,10 +74,199 @@
                     </button>
                 </a>
             </div>
+
+            <!-- filter -->
+            <div class="mt-10 flex w-full">
+                <div class=" " id="filter">
+                    <div>
+                        <a href="#">
+                            <button class="button">
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span>Filter</span>
+                            </button>
+                        </a>
+                    </div>
+                    <!-- filter -->
+
+                    <!-- filter option -->
+                    <div class="">
+                        <div class="block">
+                            <div class="flex  gap-40">
+                                <div class="border-black mt-10">
+                                    <p class="font-medium">Ketertarikan Riset</p>
+                                    <input class="p-3 border-8 h-10 w-99 input rounded-full" type="text" />
+                                </div>
+
+                                <div class="">
+                                    <label for="divisi" class="font-medium block mb-2 mt-8">
+                                        Klaster
+                                    </label>
+                                    <select id="divisi" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                        <option selected>Pilih Klaster</option>
+                                        <option value="">Teknik</option>
+                                        <option value="">MIPA</option>
+                                        <option value="">Sosial, Hukum, Politik</option>
+                                        <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="flex gap-40">
+                                <div class="">
+                                    <label for="bidang" class="font-medium block mb-2 mt-8">
+                                        Divisi
+                                    </label>
+                                    <select id="bidang" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                        <option selected>Pilih Divisi</option>
+                                        <option value="">Teknik</option>
+                                        <option value="">MIPA</option>
+                                        <option value="">Sosial, Hukum, Politik</option>
+                                        <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="divisi" class="font-medium block mb-2 mt-8">
+                                        Bidang
+                                    </label>
+                                    <select id="divisi" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                        <option selected>Pilih Bidang</option>
+                                        <option value="">Teknik</option>
+                                        <option value="">MIPA</option>
+                                        <option value="">Sosial, Hukum, Politik</option>
+                                        <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <label for="bidang" class="font-medium block mb-2 mt-8">
+                                    Grup
+                                </label>
+                                <select id="bidang" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                    <option selected>Pilih Grup</option>
+                                    <option value="">Teknik</option>
+                                    <option value="">MIPA</option>
+                                    <option value="">Sosial, Hukum, Politik</option>
+                                    <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                </select>
+                            </div>
+                            <div class="mt-10 cari-filter flex items-center justify-center">
+                                <button> Cari
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- filter option -->
+                </div>
+            </div>
+            <div class="mt-10">
+                <hr>
+            </div>
+            <!-- filter -->
+
+            <!-- dosen -->
+
+            <div class="block ">
+
+                <div class="block">
+                    <div class=" search-card flex items-center">
+                        <a href="#" class="search-card flex items-center">
+                            <button>
+                                <div class=" my-10 mx-10 flex items-center">
+                                    <img src="assets/images/pak priyanto.png" class="rounded-full image">
+                                    <div class="text-left ml-5">
+                                        <p class="font-semibold"> Dr. Priyanto, M.Kom </p>
+                                        <p class="italic">Rekayasa Perangkat Lunak, Pendidikan Teknologi Informasi</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class=" search-card flex items-center">
+                        <a href="#" class="search-card flex items-center">
+                            <button>
+                                <div class=" my-10 mx-10 flex items-center">
+                                    <img src="assets/images/pak handaru.JPG" class="rounded-full image">
+                                    <div class="text-left ml-5">
+                                        <p class="font-semibold">Handaru Jati, ST., M.M., M.T., Ph.D.</p>
+                                        <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
+                                            Intelligence</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class=" search-card flex items-center">
+                        <a href="#" class="search-card flex items-center">
+                            <button>
+                                <div class=" my-10 mx-10 flex items-center">
+                                    <img src="assets/images/pak muslikhin.png" class="rounded-full image">
+                                    <div class="text-left ml-5">
+                                        <p class="font-semibold"> Muslikhin, S.Pd., M.Pd., Ph.D. </p>
+                                        <p class="font-">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
+                                            Intelligence</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class=" search-card flex items-center">
+                        <a href="#" class="search-card flex items-center">
+                            <button>
+                                <div class=" my-10 mx-10 flex items-center">
+                                    <img src="assets/images/paka alif.png" class="rounded-full image">
+                                    <div class="text-left ml-5">
+                                        <p class="font-semibold"> Moh Alif Hidayat Sofyan, M.Pd. </p>
+                                        <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
+                                            Intelligence</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class=" search-card flex items-center">
+                        <a href="#" class="search-card flex items-center">
+                            <button>
+                                <div class=" my-10 mx-10 flex items-center">
+                                    <img src="assets/images/pak nandar.jpg" class="rounded-full image">
+                                    <div class="text-left ml-5">
+                                        <p class="font-semibold"> Leonandar Hadinegoro </p>
+                                        <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
+                                            Intelligence</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>
     <!-- search -->
+
 
     <!-- Card 1  -->
     <div class="mt-10 flex">
@@ -125,185 +317,9 @@
         <!-- Card 2  -->
 
 
-        <!-- filter -->
-        <div class="ml-10" id="filter">
-            <a href="#">
-                <button class="button">
-                    <div class="svg-wrapper-1">
-                        <div class="svg-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 
-                                    0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
-                            </svg>
-                        </div>
-                    </div>
-                    <span>Filter</span>
-                </button>
-            </a>
-            <!-- filter -->
 
-            <!-- filter option -->
-            <div class="hidden">
-                <div class="block ">
-                    <div class="flex  gap-40">
-                        <div class="border-black mt-10">
-                            <p class="font-medium">Ketertarikan Riset</p>
-                            <input class="p-3 border-8 h-10 w-99 input rounded-full" type="text" />
-                        </div>
-
-                        <div class="">
-                            <label for="divisi" class="font-medium block mb-2 mt-8">
-                                Klaster
-                            </label>
-                            <select id="divisi" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
-                                <option selected>Pilih Klaster</option>
-                                <option value="">Teknik</option>
-                                <option value="">MIPA</option>
-                                <option value="">Sosial, Hukum, Politik</option>
-                                <option value="">Ilmu Keolahragaan dan Kesehatan</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-                    <div class="flex gap-40">
-                        <div class="">
-                            <label for="bidang" class="font-medium block mb-2 mt-8">
-                                Divisi
-                            </label>
-                            <select id="bidang" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
-                                <option selected>Pilih Divisi</option>
-                                <option value="">Teknik</option>
-                                <option value="">MIPA</option>
-                                <option value="">Sosial, Hukum, Politik</option>
-                                <option value="">Ilmu Keolahragaan dan Kesehatan</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label for="divisi" class="font-medium block mb-2 mt-8">
-                                Bidang
-                            </label>
-                            <select id="divisi" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
-                                <option selected>Pilih Bidang</option>
-                                <option value="">Teknik</option>
-                                <option value="">MIPA</option>
-                                <option value="">Sosial, Hukum, Politik</option>
-                                <option value="">Ilmu Keolahragaan dan Kesehatan</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <label for="bidang" class="font-medium block mb-2 mt-8">
-                            Grup
-                        </label>
-                        <select id="bidang" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
-                            <option selected>Pilih Grup</option>
-                            <option value="">Teknik</option>
-                            <option value="">MIPA</option>
-                            <option value="">Sosial, Hukum, Politik</option>
-                            <option value="">Ilmu Keolahragaan dan Kesehatan</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <!-- filter option -->
-
-            <div class="right-0 mt-7">
-                <hr>
-            </div>
-
-            <!-- dosen -->
-
-            <div class="block">
-                <div class=" search-card flex items-center">
-                    <a href="#" class="search-card flex items-center">
-                        <button>
-                            <div class=" my-10 mx-10 flex items-center">
-                                <img src="assets/images/pak priyanto.png" class="rounded-full image">
-                                <div class="text-left ml-5">
-                                    <p class="font-semibold"> Dr. Priyanto, M.Kom </p>
-                                    <p class="italic">Rekayasa Perangkat Lunak, Pendidikan Teknologi Informasi</p>
-                                </div>
-                            </div>
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="block">
-                <div class=" search-card flex items-center">
-                    <a href="#" class="search-card flex items-center">
-                        <button>
-                            <div class=" my-10 mx-10 flex items-center">
-                                <img src="assets/images/pak handaru.JPG" class="rounded-full image">
-                                <div class="text-left ml-5">
-                                    <p class="font-semibold">Handaru Jati, ST., M.M., M.T., Ph.D.</p>
-                                    <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
-                                        Intelligence</p>
-                                </div>
-                            </div>
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="block">
-                <div class=" search-card flex items-center">
-                    <a href="#" class="search-card flex items-center">
-                        <button>
-                            <div class=" my-10 mx-10 flex items-center">
-                                <img src="assets/images/pak muslikhin.png" class="rounded-full image">
-                                <div class="text-left ml-5">
-                                    <p class="font-semibold"> Muslikhin, S.Pd., M.Pd., Ph.D. </p>
-                                    <p class="font-">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
-                                        Intelligence</p>
-                                </div>
-                            </div>
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="block">
-                <div class=" search-card flex items-center">
-                    <a href="#" class="search-card flex items-center">
-                        <button>
-                            <div class=" my-10 mx-10 flex items-center">
-                                <img src="assets/images/paka alif.png" class="rounded-full image">
-                                <div class="text-left ml-5">
-                                    <p class="font-semibold"> Moh Alif Hidayat Sofyan, M.Pd. </p>
-                                    <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
-                                        Intelligence</p>
-                                </div>
-                            </div>
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="block">
-                <div class=" search-card flex items-center">
-                    <a href="#" class="search-card flex items-center">
-                        <button>
-                            <div class=" my-10 mx-10 flex items-center">
-                                <img src="assets/images/pak nandar.jpg" class="rounded-full image">
-                                <div class="text-left ml-5">
-                                    <p class="font-semibold"> Leonandar Hadinegoro </p>
-                                    <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
-                                        Intelligence</p>
-                                </div>
-                            </div>
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Dosen -->
+    </div>
+    <!-- Dosen -->
     </div>
 
 </body>
