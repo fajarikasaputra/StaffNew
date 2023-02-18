@@ -7,7 +7,7 @@
 .card {
   /* background-image: url(/assets/images/Vector 1.png); */
   width: 240px;
-  height: 300px;
+  height: 335px;
   backdrop-filter: blur(7px);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 26px;
@@ -40,10 +40,7 @@
 }
 
 .keahlian {
-width: 240px;
-height: 148px;
-left: 49px;
-top: 641px;
+
 
 background: linear-gradient(180deg, #316498 0%, #3A4F7A 100%);
 
@@ -201,16 +198,22 @@ width: screen;
   transform: translateY(-1px);
 }
 
+.active {
+  background-color: #3a4f7a;
+  box-shadow: 0px 15px 20px rgba(58, 79, 122, 0.5);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
 .nama-dosen {
   font-size: 20px;
 }
 
 .profile-box {
-width: 1200px;
+  width: 1200px;
+  box-shadow: 0px 4px 27px 13px rgba(0, 0, 0, 0.05);
 
-
-/* card */
-box-shadow: 0px 4px 27px 13px rgba(0, 0, 0, 0.05);
 }
 
 .tulisan-biru {
