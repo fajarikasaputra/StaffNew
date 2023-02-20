@@ -1,1 +1,301 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+
+    <head>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div>
+                <div class="navbar">
+                    <div class="flex items-center justify-between biru">
+                        <div class="ml-14 my-5 flex  gap-3">
+                            <img src="/assets/images/Logo Universitas negeri Yogyakarta (UNY)-hitam 1.png" width="12%">
+                            <a class="font-bold text-white mt-2" href="#"> Staff Site UNY </a>
+                        </div>
+                        <div class="mr-20 flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+                                <path fill-rule="evenodd"
+                                    d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <a class="font-bold text-white" href="#"> Login </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <!-- navbar -->
+    <!-- rekomendasi Dosen -->
+    <div class="flex">
+        <div class="flex">
+            <div class="mt-10 ml-16 flex justify-evenly gap-10">
+                <div class=" shadow-2xl rounded-full">
+                    <button
+                        class="rekomendasi h-10 w-60 flex items-center shadow justify-center gap-2 rounded-full hijau text-white font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"
+                                clip-rule="evenodd" />
+                            <path
+                                d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z" />
+                        </svg>
+                        Rekomendasi Dosen
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- rekomendasi dosen -->
+        <!-- search -->
+
+
+        <!-- search -->
+        <div class=" mt-10 h-10 w-full block ml-10 mr-16 relative">
+            <div class="relative w-full flex">
+                <input type="text" class="search shadow-2xl p-3 h-10 w-full font-normal text-white  rounded-full biru"
+                    placeholder="Cari" />
+                <a href="search.html">
+                    <button type="submit" class="mt-2 absolute right-3 pl-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="white" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
+
+
+            <div class="block">
+
+                <!-- filter -->
+                <div class="mt-10 flex w-full">
+                    <div class=" " id="filter">
+                        <div>
+                            <a href="#">
+                                <button class="button">
+                                    <div class="svg-wrapper-1">
+                                        <div class="svg-wrapper">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <span>Filter</span>
+                                </button>
+                            </a>
+                        </div>
+                        <!-- filter -->
+
+                        <!-- filter option -->
+                        <div class="">
+                            <div class="block">
+                                <div class="flex  gap-40">
+                                    <div class="border-black mt-10">
+                                        <p class="font-medium">Ketertarikan Riset</p>
+                                        <input class="p-3 border-8 h-10 w-99 input rounded-full" type="text" />
+                                    </div>
+
+                                    <div class="">
+                                        <label for="divisi" class="font-medium block mb-2 mt-8">
+                                            Klaster
+                                        </label>
+                                        <select id="divisi" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                            <option selected>Pilih Klaster</option>
+                                            <option value="">Teknik</option>
+                                            <option value="">MIPA</option>
+                                            <option value="">Sosial, Hukum, Politik</option>
+                                            <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+                                <div class="flex gap-40">
+                                    <div class="">
+                                        <label for="bidang" class="font-medium block mb-2 mt-8">
+                                            Divisi
+                                        </label>
+                                        <select id="bidang" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                            <option selected>Pilih Divisi</option>
+                                            <option value="">Teknik</option>
+                                            <option value="">MIPA</option>
+                                            <option value="">Sosial, Hukum, Politik</option>
+                                            <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <label for="divisi" class="font-medium block mb-2 mt-8">
+                                            Bidang
+                                        </label>
+                                        <select id="divisi" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                            <option selected>Pilih Bidang</option>
+                                            <option value="">Teknik</option>
+                                            <option value="">MIPA</option>
+                                            <option value="">Sosial, Hukum, Politik</option>
+                                            <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                    <label for="bidang" class="font-medium block mb-2 mt-8">
+                                        Grup
+                                    </label>
+                                    <select id="bidang" class="p-2 border-8 bg-white h-10 w-99 input rounded-full">
+                                        <option selected>Pilih Grup</option>
+                                        <option value="">Teknik</option>
+                                        <option value="">MIPA</option>
+                                        <option value="">Sosial, Hukum, Politik</option>
+                                        <option value="">Ilmu Keolahragaan dan Kesehatan</option>
+                                    </select>
+                                </div>
+                                <div class="mt-10 cari-filter flex items-center justify-center">
+                                    <button> Cari
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- filter option -->
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <hr>
+                </div>
+                <!-- filter -->
+
+                <!-- dosen -->
+                <div>
+
+                    <div class="block ">
+
+                        <div class="block">
+                            <div class=" search-card flex items-center">
+                                <a href="#" class="search-card flex items-center">
+                                    <button>
+                                        <div class=" my-10 mx-10 flex items-center">
+                                            <img src="assets/images/pak priyanto.png" class="rounded-full image">
+                                            <div class="text-left ml-5">
+                                                <p class="font-semibold"> Dr. Priyanto, M.Kom </p>
+                                                <p class="italic">Rekayasa Perangkat Lunak, Pendidikan Teknologi
+                                                    Informasi
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class=" search-card flex items-center">
+                                <a href="#" class="search-card flex items-center">
+                                    <button>
+                                        <div class=" my-10 mx-10 flex items-center">
+                                            <img src="assets/images/pak handaru.JPG" class="rounded-full image">
+                                            <div class="text-left ml-5">
+                                                <p class="font-semibold">Handaru Jati, ST., M.M., M.T., Ph.D.</p>
+                                                <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika,
+                                                    Artificial
+                                                    Intelligence</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class=" search-card flex items-center">
+                                <a href="#" class="search-card flex items-center">
+                                    <button>
+                                        <div class=" my-10 mx-10 flex items-center">
+                                            <img src="assets/images/pak muslikhin.png" class="rounded-full image">
+                                            <div class="text-left ml-5">
+                                                <p class="font-semibold"> Muslikhin, S.Pd., M.Pd., Ph.D. </p>
+                                                <p class="font-">Pendidikan Teknologi dan Kejuruan, Robotika, Artificial
+                                                    Intelligence</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class=" search-card flex items-center">
+                                <a href="#" class="search-card flex items-center">
+                                    <button>
+                                        <div class=" my-10 mx-10 flex items-center">
+                                            <img src="assets/images/paka alif.png" class="rounded-full image">
+                                            <div class="text-left ml-5">
+                                                <p class="font-semibold"> Moh Alif Hidayat Sofyan, M.Pd. </p>
+                                                <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika,
+                                                    Artificial
+                                                    Intelligence</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class=" search-card flex items-center">
+                                <a href="#" class="search-card flex items-center">
+                                    <button>
+                                        <div class=" my-10 mx-10 flex items-center">
+                                            <img src="assets/images/pak nandar.jpg" class="rounded-full image">
+                                            <div class="text-left ml-5">
+                                                <p class="font-semibold"> Leonandar Hadinegoro </p>
+                                                <p class="italic">Pendidikan Teknologi dan Kejuruan, Robotika,
+                                                    Artificial
+                                                    Intelligence</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search -->
+    <footer class="mbb-0 mt-10 relative shadow ">
+        <div>
+            <div>
+                <div class="flex items-center justify-between biru">
+                    <div class="ml-14 my-5 flex  gap-3">
+                        <img src="/assets/images/Logo Universitas negeri Yogyakarta (UNY)-hitam 1.png" width="12%">
+                        <a class="font-bold text-white mt-2" href="#"> Staff Site UNY </a>
+                    </div>
+                    <div class="mr-20 flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <a class="font-bold text-white" href="#"> Login </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
