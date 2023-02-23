@@ -7,13 +7,11 @@
 .card {
   /* background-image: url(/assets/images/Vector 1.png); */
   width: 240px;
-  height: 300px;
   backdrop-filter: blur(7px);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 26px;
-  box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.2),
-    inset -8px -8px 16px 0px rgba(157, 177, 255, 0.6),
-    inset 0px 11px 28px 0px rgb(255, 255, 255);
+  box-shadow: 0px 4px 27px 13px rgba(0, 0, 0, 0.05);
+
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -24,20 +22,28 @@
 
 .card:active {
   transform: scale(0.95);
-  border: 1px solid blue;
+  border: 1px # 3a4f7a;
   /*animation: 0.3s click cubic-bezier(.42,0,.58,1);*/
 }
 
 .card-text-head {
   font-weight: bold;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 
 .card-text-expert {
   font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
+}
+
+.keahlian {
+width: 240px;
+background: linear-gradient(180deg, #316498 0%, #3A4F7A 100%);
+/* card */
+box-shadow: 0px 4px 27px 13px rgba(0, 0, 0, 0.05);
+border-radius: 30px;
 }
 
 .back {
@@ -49,6 +55,11 @@
 
 .front {
   position: absolute;
+  z-index: 2;
+}
+
+.fronts {
+  position: relative;
   z-index: 2;
 }
 
@@ -115,17 +126,54 @@
   width: 100px;
 }
 
+.image-search {
+  height: 80px;
+  width: 80px;
+}
+
+
+.search-card:active {
+  transform: scale(0.95);
+  /*animation: 0.3s click cubic-bezier(.42,0,.58,1);*/
+}
+
 hr {
   border: none;
   border-top: 2px solid #3a4f7a;
-  width: 74.5vw;
+  width: screen;
+}
+
+.font-profile {
+font-size: 12px;
+color: #3a4f7a;
+}
+
+.ww-99 {
+width: 73.3rem;
+}
+
+#namdos {
+width: screen;
+}
+
+.sc {
+width: screen;
 }
 
 .input {
   border: 1px solid #3a4f7a;
 }
 
+<<<<<<< HEAD
 .button-profile {
+=======
+
+  .w-99 {
+    width: 32rem;
+  }
+
+  .button-profile {
+>>>>>>> d03d40c1b2c16f945b86ebb498784a4727ced2b6
   padding: 1.3em 3em;
   font-size: 12px;
   text-transform: uppercase;
@@ -146,12 +194,81 @@ hr {
   box-shadow: 0px 15px 20px rgba(58, 79, 122, 0.5);
   color: #fff;
   transform: translateY(-7px);
+<<<<<<< HEAD
 }
 
 .button-profile:active {
   transform: translateY(-1px);
 }
   
+=======
+}
+
+.button-profile p {
+  font-size: 10px;
+}
+
+.button-profile:active {
+  transform: translateY(-1px);
+}
+
+.active {
+  background-color: #3a4f7a;
+  box-shadow: 0px 15px 20px rgba(58, 79, 122, 0.5);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+.nama-dosen {
+  font-size: 20px;
+}
+
+.profile-box {
+  width: 1200px;
+  box-shadow: 0px 4px 27px 13px rgba(0, 0, 0, 0.05);
+
+}
+
+.tulisan-biru {
+  color: #3a4f7a;
+}
+
+.cari-filter {
+ width: 6em;
+ height: 3em;
+ border-radius: 30em;
+ font-size: 15px;
+ font-family: inherit;
+ border: none;
+ position: relative;
+ overflow: hidden;
+ z-index: 1;
+ box-shadow: 6px 6px 12px #c5c5c5,
+            -6px -6px 12px #ffffff;
+}
+
+.cari-filter::before {
+ content: '';
+ width: 0;
+ height: 3em;
+ border-radius: 30em;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: linear-gradient(to right, #316498 0%, #3A4F7A 100%);
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+ color: white;
+
+}
+
+.cari-filter:hover::before {
+ width: 9em;
+
+}
+>>>>>>> d03d40c1b2c16f945b86ebb498784a4727ced2b6
 
 @keyframes fly-1 {
   from {
